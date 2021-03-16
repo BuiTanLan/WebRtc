@@ -1,0 +1,109 @@
+button {
+    cursor: pointer;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  
+  #header {
+    height: 70px;
+    background-color: #008073;
+    color: white;
+    margin-bottom: 16px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
+  #videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  video {
+    margin-top: 60px;
+    width: 700px;
+    height: auto;
+  }
+  
+  .media-controls {
+    text-align: center;
+    margin-top: 16px;
+    button {
+      height: 60px;
+      width: 60px;
+      margin-right: 16px;
+      font-size: 24px;
+      padding: 16px 16px;
+      border: 1px solid #ccc;
+      border-radius: 50%;
+      background: #fff;
+      outline: none;
+      cursor: pointer;
+    }
+  
+    .active {
+      color: #fff;
+      background: #f44336;
+    }
+  }
+  
+  .online-users {
+    text-align: center;
+    margin-top: 16px;
+    button {
+      margin-right: 16px;
+    }
+  }
+  
+  .overlayText {
+    position: absolute;
+    bottom: 30%;
+    left: 15%;
+    z-index: 1;
+    text-shadow: 1px;
+  
+    .right {
+      left: 0%;
+      right: 15%;
+    }
+  }
+  
+  .overlayText-right {
+    position: absolute;
+    bottom: 30%;
+    z-index: 1;
+    text-shadow: 1px;
+    right: 15%;
+  }
+  
+  #topText {
+    color: white;
+    font-size: 20px;
+    align-self: center;
+  }
+  
+  #incoming-call-notification {
+    position: absolute;
+    background-color: lightgreen;
+    color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    padding: 4px;
+    justify-content: center;
+    bottom: 28%;
+    z-index: 2;
+    div {
+      display: inline;
+    }
+  }
+  
